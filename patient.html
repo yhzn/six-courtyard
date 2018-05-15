@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/patient.css">
+    <script src="js/plugin/jquery.min.js"></script>
+    <script src="js/plugin/handlebars-v4.0.11.js"></script>
+    <script src="js/plugin/time/WdatePicker.js"></script>
+    <script src="js/helper/helper.js"></script>
+    <script src="js/tool/tool.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<div id="template"></div>
+</body>
+<script>
+    $(function(){
+        $('#template').load('../view/patient.hbs');
+    })
+</script>
+</html>

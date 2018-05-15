@@ -1,0 +1,96 @@
+.patient{
+    width:100%;
+    height:100%;
+    overflow: auto;
+    font-size:14px;
+}
+.patient .search{
+    margin: 0 20px 5px;
+}
+.patient .search .set{
+    float: right;
+    height: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #0c437f;
+}
+.patient .search .set img {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.patient .search .time{
+    margin-bottom: 5px;
+}
+.patient .search input{
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    height: 22px;
+    padding-left: 5px;
+    width: 160px;
+}
+.patient .search .time span {
+    color: #b6b6b6;
+}
+.patient .search input[type=button] {
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    color: #20659b;
+    background: #f79f68;
+    background: linear-gradient(#ffdcc0,#f79f68);
+}
+.patient .nav {
+    margin: 0 20px;
+}
+.patient .nav li {
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 18px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #269256;
+    background: #f3e0c1;
+}
+.patient .nav li.active {
+    background: #ffc76c;
+}
+.patient .table-con {
+    overflow: auto;
+}
+.patient .table-con table {
+    min-width: 100%;
+}
+.patient table thead tr {
+    background: #75cdce;
+}
+.patient table thead tr th {
+    padding: 6px 3px;
+    text-align: center;
+    color: #fff;
+}
+.patient table tbody tr td {
+    padding: 6px 3px;
+    text-align: center;
+}
+.patient table thead tr th:first-child, .patient table thead tr th[data-v-26d9c06b]:nth-child(2) {
+    min-width: 60px;
+}
+.patient table thead tr th:nth-child(6) {
+    min-width: 160px;
+}
+.patient table thead tr th:nth-child(7) {
+    min-width: 180px;
+}
+.patient table tbody tr {
+    background: #deeff0;
+}
+.patient table tbody tr:nth-child(2n) {
+    background: #eaf6ec;
+}

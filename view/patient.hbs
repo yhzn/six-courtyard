@@ -1,0 +1,101 @@
+<script id="patientJs" type="text/x-handlebars-template">
+<div class="patient">
+    <div class="header">疾病画像</div>
+    <div class="search clearfix">
+        <div class="set">
+            <a>
+                <img src="../image/icon/set.png" alt="">
+                列订阅设置
+            </a>
+        </div>
+        <div class="time">
+            <input type="text" placeholder="开始时间"  class="Wdate startTime" onClick="WdatePicker({el:this,dateFmt:'yyyy-MM-dd HH:mm:ss'})">
+            <span>—</span>
+            <input type="text" placeholder="结束时间"  class="Wdate endTime" onClick="WdatePicker({el:this,dateFmt:'yyyy-MM-dd HH:mm:ss'})">
+            <input type="button" class="query" value="查询">
+        </div>
+    </div>
+    <ul class="nav clearfix">
+        {{#each storage as |item index|}}
+            <li data-attr='{{index}}'>{{item.list}}</li>
+        {{/each}}
+    </ul>
+    <div class="table-con">
+        <table>
+            <thead>
+               <tr>
+                   {{#each tableData.header as |item|}}
+                       {{#if item.filter}}
+                         <th>
+                             {{item.text}}
+                         </th>
+                       {{/if}}
+                   {{/each}}
+               </tr>
+            </thead>
+            <tbody>
+            {{#each tableData.body as |items|}}
+               <tr>
+                   {{#each items as |item|}}
+                       {{#if item.filter}}
+                           <td>
+                               {{item.text}}
+                           </td>
+                       {{/if}}
+
+                   {{/each}}
+               </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="pop target">
+    <div class="pop-context">
+        <div class="pop-title">
+            <div class="search">
+                <input type="text" placeholder="请输入指标名称">
+                <div class="search-icon">
+                    <img src="../image/icon/search.png" alt="">
+                </div>
+            </div>
+            <a class="close">
+                X
+            </a>
+        </div>
+        <ul class="nav clearfix">
+            {{#each storage as |item index|}}
+            <li><a data-attr='{{index}}'>{{item.list}}</a><span data-attr='{{index}}'>x</span></li>
+            {{/each}}
+        </ul>
+        <div class="checked-con">
+            <div class="checked clearfix">
+                <div class="right">
+                    <p>未选列：</p>
+                    <ul class="uncheck">
+                       {{#each targetData as |item index|}}
+                           {{#if (not item.checked)}}
+                               {{#if (not item.filter)}}
+                                   <li data-attr='{{index}}'>{{item.text}}</li>
+                                {{/if}}
+                           {{/if}}
+                       {{/each}}
+                    </ul>
+                </div>
+                <div class="left">
+                    <p>已选列：</p>
+                    <ul class="check">
+                        {{#each targetData as |item index|}}
+                            {{#if item.checked}}
+                                <li data-attr='{{index}}'>{{item.text}}</li>
+                            {{/if}}
+                        {{/each}}
+                    </ul>
+                    <input type="button" value="订阅">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+<script src="js/view/patient.js"></script>

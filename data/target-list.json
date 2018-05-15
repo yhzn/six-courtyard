@@ -1,0 +1,434 @@
+[
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-001",
+      "text":"入院志.主诉.心悸"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-002",
+      "text":"入院志.主诉.心悸-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-003",
+
+      "text":"入院志.现病史.双下肢浮肿"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-004",
+
+      "text":"入院志.现病史.心悸"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-005",
+
+      "text":"入院志.现病史.心悸-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-006",
+
+      "text":"入院志.现病史.头晕"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-007",
+
+      "text":"入院志.现病史.发热"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-008",
+
+      "text":"入院志.现病史.乏力"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-009",
+
+      "text":"入院志.现病史.乏力-诱因"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-010",
+
+      "text":"入院志.现病史.头昏"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-011",
+
+      "text":"入院志.现病史.发热-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-012",
+
+      "text":"入院志.现病史.发热-诱因"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-013",
+
+      "text":"入院志.主诉.原始细胞升高"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-014",
+
+      "text":"入院志.主诉.原始细胞升高-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-015",
+
+      "text":"入院志.主诉.乏力"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-016",
+
+      "text":"入院志.主诉.乏力-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-017",
+
+      "text":"入院志.现病史.贫血"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-018",
+
+      "text":"入院志.现病史.低热"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-019",
+
+      "text":"入院志.现病史.面色苍白"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-020",
+
+      "text":"入院志.现病史.贫血-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-021",
+
+      "text":"入院志.现病史.血压升高"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-022",
+
+      "text":"入院志.现病史.低血糖"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-023",
+
+      "text":"入院志.现病史.高热"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-024",
+
+      "text":"入院志.现病史.淋巴结肿大-诱因"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-025",
+
+      "text":"入院志.现病史.乏力-病程-时间单位"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-026",
+
+      "text":"入院志.主诉.血三系细胞减少"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-027",
+
+      "text":"入院志.主诉.白细胞升高"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-028",
+
+      "text":"入院志.现病史.血小板低下"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-029",
+
+      "text":"入院志.现病史.发热-病程-时间单位"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-030",
+
+      "text":"入院志.现病史.白细胞升高"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-031",
+
+      "text":"入院志.现病史.白细胞升高-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-032",
+
+      "text":"入院志.主诉.全血下降"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-033",
+
+      "text":"入院志.现病史.肿块"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-034",
+
+      "text":"入院志.现病史.重度贫血"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-035",
+
+      "text":"入院志.主诉.肿块"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-036",
+
+      "text":"入院志.主诉.肿块-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-037",
+
+      "text":"入院志.现病史.淋巴结肿大-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-038",
+
+      "text":"入院志.现病史.颈部肿块"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-039",
+
+      "text":"入院志.现病史.肿块-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-040",
+
+      "text":"入院志.主诉.头晕"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-041",
+
+      "text":"入院志.主诉.头晕-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-042",
+      "text":"入院志.主诉.乏力-病程-时间单位"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-043",
+      "text":"入院志.主诉.淋巴结肿大"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-044",
+
+      "text":"入院志.主诉.淋巴结肿大-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-045",
+
+      "text":"入院志.主诉.发热"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-046",
+
+      "text":"入院志.主诉.发热-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-047",
+
+      "text":"入院志.主诉.发热-病程-时间单位"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-048",
+
+      "text":"入院志.现病史.头晕-诱因"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-049",
+
+      "text":"入院志.现病史.头晕-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-050",
+
+      "text":"入院志.现病史.头晕-病程-时间单位"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-051",
+
+      "text":"入院志.现病史.血糖控制差"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-052",
+
+      "text":"入院志.现病史.血小板低下-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-053",
+      "text":"入院志.现病史.血小板低下-病程-时间单位"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-054",
+
+      "text":"入院志.现病史.肝脾肿大"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-055",
+
+      "text":"入院志.主诉.头昏-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-056",
+
+      "text":"入院志.主诉.白细胞升高-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-057",
+
+      "text":"入院志.现病史.高热-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-058",
+
+      "text":"入院志.现病史.左下肢进行性肿胀"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-059",
+
+      "text":"入院志.现病史.左下肢进行性肿胀-诱因"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-060",
+      "text":"入院志.现病史.对侧肢体浮肿"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-061",
+      "text":"入院志.主诉.颈部肿块"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-062",
+      "text":"入院志.现病史.乏力-病程"
+    },
+    {
+      "filter":false,
+      "checked":false,
+      "key":"symptom-063",
+      "text":"入院志.现病史.淋巴结肿大"
+    }
+]

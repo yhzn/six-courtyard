@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/plugin/jquery.min.js"></script>
+    <script src="js/plugin/handlebars-v4.0.11.js"></script>
+    <script src="js/plugin/echarts.js"></script>
+    <script src="js/helper/helper.js"></script>
+    <script src="js/tool/tool.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<script id="homeJs" type="text/x-handlebars-template">
+    <div class="portrait">
+        <div class="header">白血病疾病画像</div>
+        <div class="nav clearfix">
+            <div class="right">
+                <img src="image/icon/set.png" alt=""><span>指标订阅</span>
+            </div>
+            <ul class="left clearfix">
+                {{#each storageData as |item index|}}
+                <li><a>{{item.list}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+        <div id="eChart"></div>
+        <ul class="info clearfix">
+            {{#each medInfo as |items index|}}
+                <li>
+                    <p>{{items.title}}</p>
+                    <ul>
+                        {{#each items.detail as |item|}}
+                             <li>{{item.date}}</li>
+                            {{#each item.text as |text|}}
+                              <li>{{text}}</li>
+                            {{/each}}
+                        {{/each}}
+                    </ul>
+                    <a data-attr='{{index}}'>详情</a>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="pop detail">
+        <div class="pop-context">
+            <div class="pop-title">
+                详细医嘱信息（04-01 ———— 04-05）
+                <a class="close">
+                    x
+                </a>
+            </div>
+            <ul class="list">
+                {{#each medInfoItem as |item|}}
+                <li>
+                    <div class="left">
+                        <span>{{item.date}}</span>
+                    </div>
+                    <div class="right">
+                        {{#each item.text as |text|}}
+                        <p>{{text}}</p>
+                        {{/each}}
+                    </div>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div class="pop target">
+        <div class="pop-context">
+            <div class="pop-title">
+                <div class="search">
+                    <input type="text" placeholder="请输入指标名称" />
+                    <div class="search-icon"><img src="image/icon/search.png"></div>
+                </div>
+                <a class="add-data-close close">
+                    x
+                </a>
+            </div>
+            <div class="checked-target">
+                <div>已选指标：</div>
+                <ul class="checked-target-list clearfix">
+                    {{#each storageData as |item index|}}
+                       <li><a class="choice" data-attr='{{index}}'>{{item.list}}</a><span class="close-choice" data-attr='{{index}}'>x</span></li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="read-target">
+                {{#each targetData as |items index|}}
+                <ul class="read-target-list clearfix">
+                    {{#each items as |item subIndex|}}
+                        {{#if item.checked}}
+                           <li><a href="javascript:void(0);">{{item.text}}</a><span data-attr='{{index}}-{{subIndex}}'>x</span></li>
+                        {{/if}}
+                    {{/each}}
+                </ul>
+                {{/each}}
+                <button class="sub-btn subscribe">订阅</button>
+            </div>
+
+            <div class="unchecked-target">
+                <p>
+                    未选指标：
+                </p>
+                <ul class="tab clearfix">
+                    <li class="active">1类指标</li>
+                    <li>2类指标</li>
+                    <li>3类指标</li>
+                </ul>
+                {{#each targetData as |items index|}}
+                    <ul class="tab-list clearfix">
+                        {{#each items as |item subIndex|}}
+                            {{#if (not item.checked)}}
+                                {{#if item.filter}}
+                                   <li data-attr='{{index}}-{{subIndex}}'>{{item.text}}</li>
+                                {{/if}}
+                            {{/if}}
+                        {{/each}}
+                    </ul>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</script>
+</body>
+<script src="js/view/home.js"></script>
+</html>

@@ -1,0 +1,91 @@
+
+.portrait {
+    width:100%;
+    height:100%;
+    overflow: auto;
+    font-size:14px;
+}
+.bg-gray{
+    background:#eaeaea;
+}
+.portrait .nav{
+    padding:10px 20px;
+}
+.portrait .nav .right{
+    float:right;
+    width:90px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: right;
+    color:#0c437f;
+    font-size: 16px;
+}
+.portrait .nav .right img{
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+}
+.portrait .nav .left{
+    margin-right:92px;
+}
+.portrait .nav .left li{
+    float:left;
+    height:30px;
+    line-height: 30px;
+    margin-right:10px;
+    margin-bottom: 6px;
+    padding:0 18px;
+    color:#269056;
+    font-weight: bold;
+    border-radius: 8px;
+    background:#f3e0c1;
+
+}
+.portrait .nav .left li.active{
+    background:#ffc76c;
+}
+.portrait .info{
+    margin-left:66px;
+    margin-right:20px;
+}
+.portrait .info>li{
+    float:left;
+    width:14.1857%;
+    margin-right:0.1%;
+    padding-bottom:5px;
+    background:#f3e0c1;
+}
+.portrait .info>li:nth-child(even){
+    background:#d0fcff;
+}
+.portrait .info>li:last-child{
+    margin-right:0;
+}
+.portrait .info li ul{
+    padding: 0 5px;
+    overflow: hidden;
+    height: 160px;
+    margin-bottom: 10px;
+}
+.portrait .info li ul li{
+    margin-bottom:5px;
+}
+.portrait .info a{
+    display: block;
+    background: #5c84b0;
+    margin: 0 auto;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+.portrait .info p{
+    color:#d08f37;
+    text-align: center;
+    margin-bottom:5px;
+    padding-top:10px;
+}
